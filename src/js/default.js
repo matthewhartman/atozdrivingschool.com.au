@@ -62,20 +62,35 @@ $(document).ready(function() {
   // Form Submission
   $('.contact-form').on('submit', function(e) {
     var $this = $(this);
+    var url = $this.attr("action");
     e.preventDefault();
     $this.before('<span class="loading contact-form-loading">Submitting, please wait...</span>');
     $this.addClass('disabled');
+    // console.log('submit', e.target.value)
+    var contactErrorMessage = "Whoops. There was an issue sending your enquiry / booking - please fill out the form and try again."
+    var contactSuccessHeading = "Your enquiry / booking was successfully sent", $contactSuccessMessage = "One of our representatives will get in touch with you to confirm your booking."
     $.ajax({
       type: 'post',
-      dataType: 'html',
-      url: 'submit.php',
+      dataType: 'json',
+      url: url,
       data: $this.serialize(),
-      success: function (data) {
-        $this.remove('.loading');
-        $this.html(data);
+      beforeSend: function() {
+        $this.prop("disabled", !0)
+        $this.find(".contact-submit").attr("value", "Sending...")
+        $this.find(".form-error").remove()
       },
-      error: function () {
-        $this.before('<span class="error contact-form-error">An error occurred while trying to submit your form. Please try again later.</span>')
+      success: function (data) {
+        $this.prop("disabled", !1)
+        $this.find(".contact-submit").attr("value", "Submit Enquiry")
+        $this.html('<div class="form-success text-center"><h2 class="heading-white heading-thank-you">' + contactSuccessHeading + "</h2><p>" + contactSuccessMessage + "</p></div>")
+      },
+      error: function (e) {
+        $this.prop("disabled", !1)
+        $this.find(".contact-submit").attr("value", "Submit Enquiry")
+        $this.find("legend").after('<div class="form-error text-center">' + contactErrorMessage + "</div>")
+        $("html,body").stop(!0, !0).animate({
+          scrollTop: $("#contact").offset().top
+        }, 500)
       },
       complete: function () {
         $('.contact-form-error').remove();
