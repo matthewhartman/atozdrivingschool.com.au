@@ -68,7 +68,8 @@ $(document).ready(function() {
     $this.addClass('disabled');
     // console.log('submit', e.target.value)
     var contactErrorMessage = "Whoops. There was an issue sending your enquiry / booking - please fill out the form and try again."
-    var contactSuccessHeading = "Your enquiry / booking was successfully sent", $contactSuccessMessage = "One of our representatives will get in touch with you to confirm your booking."
+    var contactSuccessMessage = "One of our representatives will get in touch with you to confirm your booking."
+    var contactSuccessHeading = "Your enquiry / booking was successfully sent", contactSuccessMessage = "One of our representatives will get in touch with you to confirm your booking."
     $.ajax({
       type: 'post',
       dataType: 'json',
