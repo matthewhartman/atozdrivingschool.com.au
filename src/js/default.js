@@ -69,7 +69,7 @@ $(document).ready(function() {
     // console.log('submit', e.target.value)
     var contactErrorMessage = "Whoops. There was an issue sending your enquiry / booking - please fill out the form and try again."
     var contactSuccessMessage = "One of our representatives will get in touch with you to confirm your booking."
-    var contactSuccessHeading = "Your enquiry / booking was successfully sent", contactSuccessMessage = "One of our representatives will get in touch with you to confirm your booking."
+    var contactSuccessHeading = "Your enquiry / booking was successfully sent"
     $.ajax({
       type: 'post',
       dataType: 'json',
