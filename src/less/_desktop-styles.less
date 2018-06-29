@@ -1,0 +1,119 @@
+// ==========================================================================
+// Desktop Custom Styles
+// ==========================================================================
+
+// Header
+.header-inner {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+// Banner
+.banner { min-height: 550px; }
+
+// Banner Headings
+.banner-lead { padding-top: 180px; }
+.banner-lead-1 {
+  .font-size(@h1-font-size);
+  .line-height(@h1-line-height);
+}
+
+// Navigation Menu
+.navigation-menu {
+  .list-inline;
+  .inline-block;
+  margin-top: 30px;
+  .navigation-item {
+    .inline-block;
+    margin: 0 20px;
+    & > a {
+      color: @white;
+    }
+  }
+}
+
+// Content Block
+.introduction-block {
+  .col-10;
+  .no-float;
+  .center-element;
+}
+.content-block-inner {
+  .col-10;
+  .no-float;
+  .center-element;
+}
+
+// About
+.about-block { padding-top: 70px; }
+
+// Services
+.services-list {
+  padding: 0 20px;
+}
+.service-item {
+  .col-4;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.service-item-content {
+  min-height: 200px;
+  padding: 45px 15px 45px 45px;
+  &:before {
+    top: 60px;
+  }
+  &:after {
+    top: 60px;
+  }
+}
+.service-item-heading {
+  &:before {
+    top: 48px;
+    margin-top: 0;
+  }
+}
+
+// Testimonial Block
+.testimonial-item-column {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+// Pricing Block
+.package-column {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.pricing-specials {
+  & > li {
+    .col-4;
+    &:nth-child(4) {
+      .col-6;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+    }
+    &:nth-child(5) {
+      .col-6;
+      border-left-color: @white;
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+// Contact Block
+.contact-block-content {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.contact-block-form {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+// Footer
+.footer-column {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer-phone { .inline; }
