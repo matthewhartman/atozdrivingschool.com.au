@@ -1613,7 +1613,6 @@ img {
   left: 0;
   margin-top: -15px;
 }
-.contact-icon-phone,
 .contact-icon-mobile {
   font-size: 16px;
   font-size: 1rem;
@@ -1626,10 +1625,6 @@ img {
 .contact-icon-email > a:hover,
 .contact-icon-email > a:focus {
   text-decoration: none;
-}
-.contact-icon-phone:before {
-  background-image: url(img/phone.svg);
-  background-position: 50% 50%;
 }
 .contact-icon-mobile:before {
   background-image: url(img/mobile.svg);
