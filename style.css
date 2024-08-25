@@ -1450,7 +1450,14 @@ img {
 }
 .pricing-block.animate-block.active .price-item-1,
 .pricing-block.animate-block.active .price-item-2,
-.pricing-block.animate-block.active .price-item-3 {
+.pricing-block.animate-block.active .price-item-3,
+.pricing-block.animate-block.active .price-item-4,
+.pricing-block.animate-block.active .price-item-5,
+.pricing-block.animate-block.active .price-item-6,
+.pricing-block.animate-block.active .price-item-7,
+.pricing-block.animate-block.active .price-item-8,
+.pricing-block.animate-block.active .price-item-9,
+.pricing-block.animate-block.active .price-item-10 {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -1470,6 +1477,34 @@ img {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
+.pricing-block.animate-block.active .price-item-4 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+.pricing-block.animate-block.active .price-item-5 {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+.pricing-block.animate-block.active .price-item-6 {
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+.pricing-block.animate-block.active .price-item-7 {
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+.pricing-block.animate-block.active .price-item-8 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.pricing-block.animate-block.active .price-item-9 {
+  -webkit-animation-delay: 2.2s;
+  animation-delay: 2.2s;
+}
+.pricing-block.animate-block.active .price-item-10 {
+  -webkit-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+}
 .pricing-block.animate-block.active .heading-2 {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -1477,30 +1512,8 @@ img {
   animation-fill-mode: both;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  -webkit-animation-delay: 1.2s;
-  animation-delay: 1.2s;
-}
-.pricing-block.animate-block.active .special-package-1,
-.pricing-block.animate-block.active .special-package-2,
-.pricing-block.animate-block.active .special-package-3 {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
-.pricing-block.animate-block.active .special-package-1 {
-  -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s;
-}
-.pricing-block.animate-block.active .special-package-2 {
-  -webkit-animation-delay: 1.6s;
-  animation-delay: 1.6s;
-}
-.pricing-block.animate-block.active .special-package-3 {
-  -webkit-animation-delay: 1.8s;
-  animation-delay: 1.8s;
+  -webkit-animation-delay: 2.6s;
+  animation-delay: 2.6s;
 }
 .pricing-block.animate-block.active .lesson-package-1,
 .pricing-block.animate-block.active .lesson-package-2,
@@ -1513,17 +1526,28 @@ img {
   animation-name: fadeInUp;
 }
 .pricing-block.animate-block.active .lesson-package-1 {
-  -webkit-animation-delay: 2.2s;
-  animation-delay: 2.2s;
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s;
 }
 .pricing-block.animate-block.active .lesson-package-2 {
-  -webkit-animation-delay: 2.4s;
-  animation-delay: 2.4s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
 }
 .pricing-block.animate-block.active .lesson-package-3 {
-  -webkit-animation-delay: 2.6s;
-  animation-delay: 2.6s;
+  -webkit-animation-delay: 3.2s;
+  animation-delay: 3.2s;
 }
+.pricing-block.animate-block.active .heading-3 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-delay: 3.4s;
+  animation-delay: 3.4s;
+}
+
 .pricing-block.animate-block.active .test-package-1,
 .pricing-block.animate-block.active .test-package-2,
 .pricing-block.animate-block.active .test-package-3 {
@@ -1535,16 +1559,16 @@ img {
   animation-name: fadeInUp;
 }
 .pricing-block.animate-block.active .test-package-1 {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 3.6s;
+  animation-delay: 3.6s;
 }
 .pricing-block.animate-block.active .test-package-2 {
-  -webkit-animation-delay: 3.2s;
-  animation-delay: 3.2s;
+  -webkit-animation-delay: 3.8s;
+  animation-delay: 3.8s;
 }
 .pricing-block.animate-block.active .test-package-3 {
-  -webkit-animation-delay: 3.4s;
-  animation-delay: 3.4s;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
 }
 .pricing-block.animate-block.active .terms-link {
   -webkit-animation-duration: 1s;
@@ -1553,8 +1577,8 @@ img {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
-  -webkit-animation-delay: 3.6s;
-  animation-delay: 3.6s;
+  -webkit-animation-delay: 4.2s;
+  animation-delay: 4.2s;
 }
 .contact-list {
   font-size: 13px;
@@ -1633,66 +1657,6 @@ img {
 .contact-icon-email:before {
   background-image: url(img/email.svg);
   background-position: 50% 50%;
-}
-.contact-block.active .contact-block-content {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
-}
-.contact-block.active .contact-block-form {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-}
-.contact-block.animate-block.active .heading {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-.contact-block.animate-block.active .introduction-block {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-.contact-block.animate-block.active .contact-content-1 {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s;
-}
-.contact-block.animate-block.active .contact-content-2 {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s;
 }
 .footer {
   font-size: 13px;
@@ -1932,29 +1896,18 @@ img {
     position: relative;
     float: left;
     width: 50%;
-    border-top: 0;
-    border-left: 2px solid #fff;
-    border-top: 2px solid #fff;
-  }
-  .pricing > li:first-child {
-    border-left: 0;
+    border: 1px solid #fff;
   }
   .pricing-specials > li {
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
     float: left;
-    width: 50%;
-    border-top: 0;
-    border-left: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+    width: 33.33333333%;
   }
-  .pricing-specials > li:first-child {
-    border-left: 0;
-  }
+  .pricing-specials > li:nth-child(4),
   .pricing-specials > li:nth-child(5) {
-    border-left-color: transparent;
-    border-bottom-color: transparent;
+    width: 50%;
   }
   .package-column {
     padding-left: 15px;
@@ -2098,31 +2051,6 @@ img {
   .package-column {
     padding-left: 25px;
     padding-right: 25px;
-  }
-  .pricing-specials > li {
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    float: left;
-    width: 33.33333333%;
-  }
-  .pricing-specials > li:nth-child(4) {
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    float: left;
-    width: 50%;
-    border-left-color: transparent;
-    border-bottom-color: transparent;
-  }
-  .pricing-specials > li:nth-child(5) {
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    float: left;
-    width: 50%;
-    border-left-color: #fff;
-    border-bottom-color: transparent;
   }
   .contact-block-content {
     padding-left: 40px;
